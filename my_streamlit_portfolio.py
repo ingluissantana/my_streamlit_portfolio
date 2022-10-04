@@ -130,13 +130,13 @@ with st.container():
         st.image("https://img.freepik.com/free-photo/close-up-man-writing-code-laptop_158595-5169.jpg?w=2000&t=st=1664902081~exp=1664902681~hmac=eb52218837e2e3dc35453544a82a190ec616c1ce87b9c012b489e28a4dfde7aa")
         st.subheader("Music Scales and Harmonic Fields")
         st.write("This projects came from a real need as a guitarrist. The software let the user select a Key and it returns all the scales and the harmonic fields related to it.")
-        if st.button('Enter App', key="ews_enter"):
+        if st.button('Enter App', key="gee_enter"):
             js = "window.open('https://bit.ly/3e6ZsbO')"  # New tab or window
             html = '<img src onerror="{}">'.format(js)
             div = Div(text=html)
             st.write('Web Application opens in new browser tab')
             st.bokeh_chart(div)
-        if st.button('Github', key="ews_github"):
+        if st.button('Github', key="gee_github"):
             st.write('Github opens in new browser tab')
             js = "window.open('https://github.com/ingluissantana/Scales')"  # New tab or window
             html = '<img src onerror="{}">'.format(js)
