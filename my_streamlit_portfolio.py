@@ -142,7 +142,22 @@ with st.container():
             html = '<img src onerror="{}">'.format(js)
             div = Div(text=html)
             st.bokeh_chart(div)
-
+    with col3:
+        st.image("https://img.freepik.com/free-photo/close-up-man-writing-code-laptop_158595-5169.jpg?w=2000&t=st=1664902081~exp=1664902681~hmac=eb52218837e2e3dc35453544a82a190ec616c1ce87b9c012b489e28a4dfde7aa")
+        st.subheader("German analysis")
+        st.write("This is a NLP project that analyzes German text.")
+        if st.button('Enter App', key="egn_enter"):
+            js = "window.open('https://bit.ly/3FOTmIq')"  # New tab or window
+            html = '<img src onerror="{}">'.format(js)
+            div = Div(text=html)
+            st.write('Web Application opens in new browser tab')
+            st.bokeh_chart(div)
+        if st.button('Github', key="egn_github"):
+            st.write('Github opens in new browser tab')
+            js = "window.open('https://github.com/ingluissantana/Learning_german')"  # New tab or window
+            html = '<img src onerror="{}">'.format(js)
+            div = Div(text=html)
+            st.bokeh_chart(div)
 
 # --- CONTACT ---
 with st.container():
