@@ -145,7 +145,7 @@ with st.container():
     with col3:
         st.image("https://img.freepik.com/free-photo/close-up-man-writing-code-laptop_158595-5169.jpg?w=2000&t=st=1664902081~exp=1664902681~hmac=eb52218837e2e3dc35453544a82a190ec616c1ce87b9c012b489e28a4dfde7aa")
         st.subheader("German analysis")
-        st.write("This is a NLP project that analyzes German text.")
+        st.write("This is a basic NLP project that analyzes German text. It allows the user to see german prepositions in two different positions in a sentence and a desired words in 3 different positions in a sentence.")
         if st.button('Enter App', key="egn_enter"):
             js = "window.open('https://bit.ly/3FOTmIq')"  # New tab or window
             html = '<img src onerror="{}">'.format(js)
